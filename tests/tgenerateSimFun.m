@@ -6,7 +6,7 @@ classdef tgenerateSimFun < matlab.unittest.TestCase
     end
 
     properties (ClassSetupParameter)
-        MATfilename = {"test_generateSimFun.mat"}
+        MATfilename = {"test_generateSimFun.mat",string.empty}
     end
 
     properties (TestParameter)
